@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6464BAA296B8C4200CB8288 /* deepBreathingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6464BA9296B8C4200CB8288 /* deepBreathingView.swift */; };
+		B6464BAC296B8C9F00CB8288 /* finishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6464BAB296B8C9F00CB8288 /* finishView.swift */; };
+		B6464BAE296B8CDF00CB8288 /* betterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6464BAD296B8CDF00CB8288 /* betterView.swift */; };
+		B6464BB0296B8D3300CB8288 /* rewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6464BAF296B8D3300CB8288 /* rewardsView.swift */; };
+		B6464BB2296B8D6F00CB8288 /* mainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6464BB1296B8D6F00CB8288 /* mainMenuView.swift */; };
+		B65B244A2953CC5300B6F81E /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65B24492953CC5300B6F81E /* home.swift */; };
+		B6C66AE8294EE91E007BD7B0 /* welli Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B6C66AE7294EE91E007BD7B0 /* welli Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B6C66AED294EE91E007BD7B0 /* welliApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C66AEC294EE91E007BD7B0 /* welliApp.swift */; };
+		B6C66AEF294EE91E007BD7B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C66AEE294EE91E007BD7B0 /* ContentView.swift */; };
+		B6C66AF1294EE920007BD7B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C66AF0294EE920007BD7B0 /* Assets.xcassets */; };
+		B6C66AF4294EE920007BD7B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C66AF3294EE920007BD7B0 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6C66AE9294EE91E007BD7B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6C66ADB294EE91D007BD7B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6C66AE6294EE91E007BD7B0;
+			remoteInfo = "welli Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B6C66AFA294EE920007BD7B0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B6C66AE8294EE91E007BD7B0 /* welli Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B6464BA8296B8C4100CB8288 /* welli-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "welli-Bridging-Header.h"; sourceTree = "<group>"; };
+		B6464BA9296B8C4200CB8288 /* deepBreathingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deepBreathingView.swift; sourceTree = "<group>"; };
+		B6464BAB296B8C9F00CB8288 /* finishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finishView.swift; sourceTree = "<group>"; };
+		B6464BAD296B8CDF00CB8288 /* betterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = betterView.swift; sourceTree = "<group>"; };
+		B6464BAF296B8D3300CB8288 /* rewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rewardsView.swift; sourceTree = "<group>"; };
+		B6464BB1296B8D6F00CB8288 /* mainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainMenuView.swift; sourceTree = "<group>"; };
+		B65B24492953CC5300B6F81E /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		B6C66AE1294EE91E007BD7B0 /* welli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = welli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C66AE7294EE91E007BD7B0 /* welli Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "welli Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C66AEC294EE91E007BD7B0 /* welliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welliApp.swift; sourceTree = "<group>"; };
+		B6C66AEE294EE91E007BD7B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6C66AF0294EE920007BD7B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6C66AF3294EE920007BD7B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6C66AE4294EE91E007BD7B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6C66ADA294EE91D007BD7B0 = {
+			isa = PBXGroup;
+			children = (
+				B6C66AEB294EE91E007BD7B0 /* welli Watch App */,
+				B6C66AE2294EE91E007BD7B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6C66AE2294EE91E007BD7B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6C66AE1294EE91E007BD7B0 /* welli.app */,
+				B6C66AE7294EE91E007BD7B0 /* welli Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6C66AEB294EE91E007BD7B0 /* welli Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				B6C66AEC294EE91E007BD7B0 /* welliApp.swift */,
+				B6464BAF296B8D3300CB8288 /* rewardsView.swift */,
+				B6464BA9296B8C4200CB8288 /* deepBreathingView.swift */,
+				B6464BB1296B8D6F00CB8288 /* mainMenuView.swift */,
+				B65B24492953CC5300B6F81E /* home.swift */,
+				B6464BAD296B8CDF00CB8288 /* betterView.swift */,
+				B6464BAB296B8C9F00CB8288 /* finishView.swift */,
+				B6C66AEE294EE91E007BD7B0 /* ContentView.swift */,
+				B6C66AF0294EE920007BD7B0 /* Assets.xcassets */,
+				B6C66AF2294EE920007BD7B0 /* Preview Content */,
+				B6464BA8296B8C4100CB8288 /* welli-Bridging-Header.h */,
+			);
+			path = "welli Watch App";
+			sourceTree = "<group>";
+		};
+		B6C66AF2294EE920007BD7B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B6C66AF3294EE920007BD7B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6C66AE0294EE91E007BD7B0 /* welli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C66AFB294EE920007BD7B0 /* Build configuration list for PBXNativeTarget "welli" */;
+			buildPhases = (
+				B6C66ADF294EE91E007BD7B0 /* Resources */,
+				B6C66AFA294EE920007BD7B0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C66AEA294EE91E007BD7B0 /* PBXTargetDependency */,
+			);
+			name = welli;
+			productName = welli;
+			productReference = B6C66AE1294EE91E007BD7B0 /* welli.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		B6C66AE6294EE91E007BD7B0 /* welli Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C66AF7294EE920007BD7B0 /* Build configuration list for PBXNativeTarget "welli Watch App" */;
+			buildPhases = (
+				B6C66AE3294EE91E007BD7B0 /* Sources */,
+				B6C66AE4294EE91E007BD7B0 /* Frameworks */,
+				B6C66AE5294EE91E007BD7B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "welli Watch App";
+			productName = "welli Watch App";
+			productReference = B6C66AE7294EE91E007BD7B0 /* welli Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6C66ADB294EE91D007BD7B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B6C66AE0294EE91E007BD7B0 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					B6C66AE6294EE91E007BD7B0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B6C66ADE294EE91D007BD7B0 /* Build configuration list for PBXProject "welli" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6C66ADA294EE91D007BD7B0;
+			productRefGroup = B6C66AE2294EE91E007BD7B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6C66AE0294EE91E007BD7B0 /* welli */,
+				B6C66AE6294EE91E007BD7B0 /* welli Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6C66ADF294EE91E007BD7B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C66AE5294EE91E007BD7B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C66AF4294EE920007BD7B0 /* Preview Assets.xcassets in Resources */,
+				B6C66AF1294EE920007BD7B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6C66AE3294EE91E007BD7B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65B244A2953CC5300B6F81E /* home.swift in Sources */,
+				B6464BAC296B8C9F00CB8288 /* finishView.swift in Sources */,
+				B6464BB2296B8D6F00CB8288 /* mainMenuView.swift in Sources */,
+				B6464BAE296B8CDF00CB8288 /* betterView.swift in Sources */,
+				B6464BB0296B8D3300CB8288 /* rewardsView.swift in Sources */,
+				B6C66AEF294EE91E007BD7B0 /* ContentView.swift in Sources */,
+				B6C66AED294EE91E007BD7B0 /* welliApp.swift in Sources */,
+				B6464BAA296B8C4200CB8288 /* deepBreathingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6C66AEA294EE91E007BD7B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6C66AE6294EE91E007BD7B0 /* welli Watch App */;
+			targetProxy = B6C66AE9294EE91E007BD7B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B6C66AF5294EE920007BD7B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6C66AF6294EE920007BD7B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B6C66AF8294EE920007BD7B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"welli Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 763984QM2Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = welli;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.gmu.welli.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		B6C66AF9294EE920007BD7B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"welli Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 763984QM2Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = welli;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.gmu.welli.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		B6C66AFC294EE920007BD7B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 763984QM2Z;
+				INFOPLIST_KEY_CFBundleDisplayName = welli;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.gmu.welli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "welli Watch App/welli-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B6C66AFD294EE920007BD7B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 763984QM2Z;
+				INFOPLIST_KEY_CFBundleDisplayName = welli;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.gmu.welli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "welli Watch App/welli-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6C66ADE294EE91D007BD7B0 /* Build configuration list for PBXProject "welli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C66AF5294EE920007BD7B0 /* Debug */,
+				B6C66AF6294EE920007BD7B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C66AF7294EE920007BD7B0 /* Build configuration list for PBXNativeTarget "welli Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C66AF8294EE920007BD7B0 /* Debug */,
+				B6C66AF9294EE920007BD7B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C66AFB294EE920007BD7B0 /* Build configuration list for PBXNativeTarget "welli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C66AFC294EE920007BD7B0 /* Debug */,
+				B6C66AFD294EE920007BD7B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6C66ADB294EE91D007BD7B0 /* Project object */;
+}
